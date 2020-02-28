@@ -1,0 +1,25 @@
+.view, body, html{
+	height:100%
+}
+
+.full-overlay {
+	position: fixed;
+	z-index: 1;
+	color: white;
+}
+
+#label-home {
+	transform: translate(30px, 2em);
+}
+
+#label-lineup {
+	transform: translate(30px, 22em) rotate(90deg);
+}
+
+#label-location {
+	transform: translate(44em, 22em);
+}
+
+#label-info {
+	transform: translate(45em, -1em) rotate(90deg);
+}
