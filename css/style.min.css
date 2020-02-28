@@ -3,11 +3,10 @@
 }
 
 .full-overlay {
-	position: fixed;
-	z-index: 1;
+	/*position: fixed;*/
 	color: white;
 }
-
+/*
 #label-home {
 	transform: translate(30px, 2em);
 }
@@ -22,4 +21,35 @@
 
 #label-info {
 	transform: translate(45em, -1em) rotate(90deg);
+}
+*/
+
+#label-home {
+	position: fixed;
+	z-index: 1;
+	top: 10%;
+	left: 5%;
+}
+
+#label-lineup {
+	position: fixed;
+	z-index: 1;
+	transform: rotate(90deg);
+	bottom: 10%;
+	left: 5%;
+}
+
+#label-location {
+	position: fixed;
+	z-index: 1;
+	top: 10%;
+	right: 5%;
+}
+
+#label-info {
+	position: fixed;
+	z-index: 1;
+	transform: rotate(90deg);
+	bottom: 10%;
+	right: 5%;
 }
