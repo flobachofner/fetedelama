@@ -6,13 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Fête de Lama</title>
+	
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
+  <!-- Custom CSS -->
   <link href="css/style.min.css" rel="stylesheet">
 	
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -24,22 +25,21 @@
 
     gtag('config', 'UA-41313155-10');
   </script>
-
 </head>
 
 <body>
 	
   <!-- Overlay -->
   <div class="full-overlay">
-	  <h3 id="label-home"><a>Fête de <br> Lama</a></h3>
-	  <h3 id="label-lineup"><a>Line Up</a></h3>
-	  <h3 id="label-location"><a>Location</a></h3>
-	  <h3 id="label-info"><a>Info</a></h3>
+	  <h3 id="label-home" class="label-overlay"><a href="#section-start">Fête de <br> Lama</a></h3>
+	  <h3 id="label-info" class="label-overlay"><a href="#section-info">Info</a></h3>
+	  <h3 id="label-location" class="label-overlay"><a href="#section-location">Location</a></h3>
+	  <h3 id="label-lineup" class="label-overlay"><a href="#section-lineup">Line Up</a></h3>
   </div>
   <!-- Overlay -->
 
-  <!-- Full Page Intro -->
-  <div class="view full-page-intro" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg'); background-repeat: no-repeat; background-size: cover;">
+  <!-- Cover -->
+  <div class="view full-page-intro" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/78.jpg'); background-repeat: no-repeat; background-size: cover;" id="section-start">
 
     <!-- Mask & flexbox options-->
     <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
@@ -76,14 +76,14 @@
     <!-- Mask & flexbox options-->
 
   </div>
-  <!-- Full Page Intro -->
+  <!-- Cover -->
 
   <!--Main layout-->
   <main>
     <div class="container">
 
-      <!--Section: Main info-->
-      <section class="mt-5 fadeIn">
+      <!--Section: Info-->
+      <section class="mt-5 fadeIn" id="section-info">
 
         <!--Grid row-->
         <div class="row">
@@ -100,10 +100,7 @@
           <div class="col-md-6 mb-4">
 
             <!-- Main heading -->
-            <h3 class="h3 mb-3">Material Design for Bootstrap</h3>
-            <p>This template is created with Material Design for Bootstrap (
-              <strong>MDB</strong> ) framework.</p>
-            <p>Read details below to learn more about MDB.</p>
+            <h2 class="mb-3">Info</h2>
             <!-- Main heading -->
 
             <hr>
@@ -130,89 +127,44 @@
         <!--Grid row-->
 
       </section>
-      <!--Section: Main info-->
+      <!--Section: Info -->
 
       <hr class="my-5">
 
-      <!--Section: Main features & Quick Start-->
-      <section>
+      <!--Section: Line Up -->
+      <section class="text-center" id="section-lineup">
 
-        <h3 class="h3 text-center mb-5">About MDB</h3>
-
-        <!--Grid row-->
-        <div class="row fadeIn">
-
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12 px-4">
-
-            <!--First row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-code fa-2x indigo-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Bootstrap 4</h5>
-                <p class="grey-text">Thanks to MDB you can take advantage of all feature of newest Bootstrap 4.</p>
-              </div>
-            </div>
-            <!--/First row-->
-
-            <div style="height:30px"></div>
-
-            <!--Second row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-book fa-2x blue-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Detailed documentation</h5>
-                <p class="grey-text">We give you detailed user-friendly documentation at your disposal. It will help you to implement your ideas
-                  easily.
-                </p>
-              </div>
-            </div>
-            <!--/Second row-->
-
-            <div style="height:30px"></div>
-
-            <!--Third row-->
-            <div class="row">
-              <div class="col-1 mr-3">
-                <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
-              </div>
-              <div class="col-10">
-                <h5 class="feature-title">Lots of tutorials</h5>
-                <p class="grey-text">We care about the development of our users. We have prepared numerous tutorials, which allow you to learn
-                  how to use MDB as well as other technologies.</p>
-              </div>
-            </div>
-            <!--/Third row-->
-
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-lg-6 col-md-12">
-
-            <p class="h5 text-center mb-4">Watch our "5 min Quick Start" tutorial</p>
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cXTThxoywNQ" allowfullscreen></iframe>
-            </div>
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/Grid row-->
+        <h2 class="mb-5">Line Up</h2>
+		  
+		<div class="row">
+			
+			<div class="col-3">
+				<h4>Clark S</h4>
+			</div>
+			
+			<div class="col-3">
+				<h4>The Rising Lights</h4>
+			</div>
+			
+			<div class="col-3">
+				<h4>tbd</h4>
+			</div>
+			
+			<div class="col-3">
+				<h4>Ren Foh Cab</h4>
+			</div>
+			
+		</div>
 
       </section>
-      <!--Section: Main features & Quick Start-->
+      <!--Section: Line Up -->
 
       <hr class="my-5">
 
-      <!--Section: Not enough-->
-      <section>
+      <!--Section: Location-->
+      <section id="section-location">
 
-        <h2 class="my-5 h3 text-center">Not enough?</h2>
+        <h2 class="my-5 text-center">Location</h2>
 
         <!--First row-->
         <div class="row features-small mb-5 mt-3 fadeIn">
@@ -345,182 +297,27 @@
         <!--/First row-->
 
       </section>
-      <!--Section: Not enough-->
+      <!--Section: Location -->
 
       <hr class="mb-5">
 
-      <!--Section: More-->
-      <section>
-
-        <h2 class="my-5 h3 text-center">...and even more</h2>
-
-        <!--First row-->
-        <div class="row features-small mt-5 fadeIn">
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fab fa-firefox fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2 pl-3">
-                <h5 class="feature-title font-bold mb-1">Cross-browser compatibility</h5>
-                <p class="grey-text mt-2">Chrome, Firefox, IE, Safari, Opera, Microsoft Edge - MDB loves all browsers; all browsers love MDB.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-level-up-alt fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Frequent updates</h5>
-                <p class="grey-text mt-2">MDB becomes better every month. We love the project and enhance as much as possible.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-comments fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Active community</h5>
-                <p class="grey-text mt-2">Our society grows day by day. Visit our forum and check how it is to be a part of our family.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">jQuery 3.x</h5>
-                <p class="grey-text mt-2">MDB is integrated with newest jQuery. Therefore you can use all the latest features which come along with
-                  it.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/First row-->
-
-        <!--Second row-->
-        <div class="row features-small mt-4 wow fadeIn">
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-cubes fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Modularity</h5>
-                <p class="grey-text mt-2">Material Design for Bootstrap comes with both, compiled, ready to use libraries including all features as
-                  well as modules for CSS (SASS files) and JS.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-question fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Technical support</h5>
-                <p class="grey-text mt-2">We care about reliability. If you have any questions - do not hesitate to contact us.
-                </p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="fas fa-th fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">Flexbox</h5>
-                <p class="grey-text mt-2">MDB fully supports Flex Box. You can forget about alignment issues.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-          <!--Grid column-->
-          <div class="col-xl-3 col-lg-6">
-            <!--Grid row-->
-            <div class="row">
-              <div class="col-2">
-                <i class="far fa-file-code fa-2x mb-1 indigo-text" aria-hidden="true"></i>
-              </div>
-              <div class="col-10 mb-2">
-                <h5 class="feature-title font-bold mb-1">SASS files</h5>
-                <p class="grey-text mt-2">Arranged and well documented .scss files can't wait until you compile them.</p>
-              </div>
-            </div>
-            <!--/Grid row-->
-          </div>
-          <!--/Grid column-->
-
-        </div>
-        <!--/Second row-->
-
-      </section>
-      <!--Section: More-->
-
     </div>
   </main>
-  <!--Main layout-->
+  <!-- Main layout -->
 
-  <!--Footer-->
+  <!-- Footer -->
   <footer class="page-footer text-center mt-4">
 
-    <!--Copyright-->
-    <div class="footer-copyright py-3">
-      © 2020 by
-      <a href="#" target="_blank"> fetedelama.ch </a>
-	  - Florian Bachofner
+    <!-- Copyright -->
+    <div class="py-3">
+      © 2020 by <a href="#section-start" target="_self"> fetedelama.ch </a>
+	  <br><br>
+	  <a href="impressum.html">Impressum</a> | <a href="datenschutz.html">Datenschutz</a>
     </div>
-    <!--/.Copyright-->
+    <!-- Copyright -->
 
   </footer>
-  <!--/.Footer-->
+  <!-- Footer -->
 
   <!-- SCRIPTS -->
   <!-- JQuery -->
@@ -535,6 +332,19 @@
   <script type="text/javascript">
     // Animations initialization
     new WOW().init();
+	  
+	$(function() {
+		$('a[href*=\\#]:not([href=\\#])').on('click', function() {
+			var target = $(this.hash);
+			target = target.length ? target : $('[name=]' + this.hash.substr(1) + ']');
+			if (target.length) {
+				$('html,body').animate({
+					scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			}
+		});
+	});
   </script>
 </body>
 

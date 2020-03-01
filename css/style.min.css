@@ -1,9 +1,21 @@
 .view, body, html{
-	height:100%
+	height:100%;
 }
 
 .full-overlay {
 	color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #484848;
+}
+
+a {
+	color: #484848 !important;
+}
+
+a:hover {
+	color: #D95E32 !important;
 }
 
 #label-home {
@@ -13,7 +25,7 @@
 	left: 5%;
 }
 
-#label-lineup {
+#label-info {
 	position: fixed;
 	z-index: 1;
 	transform: rotate(90deg);
@@ -28,10 +40,20 @@
 	right: 5%;
 }
 
-#label-info {
+#label-lineup {
 	position: fixed;
 	z-index: 1;
 	transform: rotate(90deg);
 	bottom: 10%;
 	right: 5%;
+}
+
+.label-overlay {
+	font-size: 34px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	
+}
+
+.page-footer {
+	background-color: #F2A413;
 }
