@@ -2,6 +2,10 @@
 	height:100%;
 }
 
+body {
+	background-color: #F2DCC2;
+}
+
 .full-overlay {
 	color: white;
 }
@@ -52,6 +56,14 @@ a:hover {
 	font-size: 34px;
 	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	
+}
+
+.progress {
+	background-color: #484848;
+}
+
+.progress-bar {
+	background-color: #D95E32;
 }
 
 .page-footer {

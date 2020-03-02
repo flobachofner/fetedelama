@@ -1,0 +1,40 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" viewBox="0 0 293 283">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #2c5951;
+      }
+
+      .cls-4 {
+        fill: #bf8415;
+      }
+
+      .cls-5 {
+        fill: #f2a413;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="293" height="283"/>
+    </clipPath>
+  </defs>
+  <title>6c2bfdf1-108b-43e8-9ac1-05cbcaa4b59b</title>
+  <g class="cls-2">
+    <path class="cls-3" d="M97,283v-1l21-67,99-36s77.4,38.4,76,37c-4-4-196,67-196,67"/>
+    <polygon class="cls-4" points="185 243 190 29 101 57 97 283 185 243"/>
+    <polygon class="cls-5" points="7 33.5 7 246.5 97 283 103 63.5 7 33.5"/>
+    <polygon class="cls-4" points="0 33 0 24 104 56 103 65 0 33"/>
+    <polygon class="cls-5" points="0 24 105 0 198 27 104 56 0 24"/>
+    <polygon class="cls-4" points="6 212 9 213 9 229 6 229 6 212"/>
+    <polygon class="cls-4" points="6 84 9 85 9 101 6 101 6 84"/>
+    <path class="cls-4" d="M50.2,105.9c7.6-5.3,9.5-8.8,9.3-12.1s-6.8-2.7-7-.7c.2-2-4.1-4-6.9-1.7s1.3,10.1,4.5,14.5"/>
+    <polygon class="cls-4" points="185 31 186 38 198 33 198 27 185 31"/>
+  </g>
+</svg>
