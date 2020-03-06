@@ -1,17 +1,21 @@
+@font-face { font-family: Monument; src: url("../font/MonumentExtended-Ultrabold.otf"); }
+
 .view, body, html{
 	height:100%;
+	overflow-x: hidden;
 }
 
 body {
-	background-color: #F2DCC2;
+	background-color: #FFF5EE;
 }
 
-.full-overlay {
-	color: white;
+section {
+	margin: 100px 0px;
 }
 
 h1,h2,h3,h4,h5,h6 {
 	color: #484848;
+	font-family: Monument;	
 }
 
 a {
@@ -19,25 +23,42 @@ a {
 }
 
 a:hover {
-	color: #D95E32 !important;
+	color: #F0872B !important;
 }
 
+.label-overlay {
+	font-size: 22px !important;
+	letter-spacing: 4px;
+}
+
+@media only screen and (max-width: 750px) {
+  .label-overlay {
+	visibility: hidden;
+}
+}
 #label-home {
+	position: relative;
+	z-index: 1;
+	top: 10%;
+	left: 32%;
+}
+
+#label-info {
 	position: fixed;
 	z-index: 1;
 	top: 10%;
 	left: 5%;
 }
 
-#label-info {
+#label-location {
 	position: fixed;
 	z-index: 1;
 	transform: rotate(90deg);
-	bottom: 10%;
-	left: 5%;
+	bottom: 12%;
+	left: 2%;
 }
 
-#label-location {
+#label-sponsor {
 	position: fixed;
 	z-index: 1;
 	top: 10%;
@@ -49,14 +70,24 @@ a:hover {
 	z-index: 1;
 	transform: rotate(90deg);
 	bottom: 10%;
-	right: 5%;
+	right: 2%;
 }
 
-.label-overlay {
-	font-size: 34px;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	
+.lineup-button {
+	color: white;	
 }
+
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+button:focus { outline: none; }
 
 .progress {
 	background-color: #484848;
@@ -67,5 +98,5 @@ a:hover {
 }
 
 .page-footer {
-	background-color: #F2A413;
+	background-color: #F0872B;
 }
