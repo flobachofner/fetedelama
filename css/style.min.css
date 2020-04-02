@@ -10,7 +10,7 @@ body {
 }
 
 section {
-	margin: 100px 0px;
+	margin: 250px 0px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -26,7 +26,7 @@ a:hover {
 	color: #F0872B !important;
 }
 
-.label-overlay {
+.label-overlay a {
 	font-size: 22px !important;
 	letter-spacing: 4px;
 }
@@ -34,7 +34,7 @@ a:hover {
 @media only screen and (max-width: 750px) {
   .label-overlay {
 	visibility: hidden;
-}
+	}
 }
 #label-home {
 	position: relative;
@@ -72,6 +72,28 @@ a:hover {
 	bottom: 10%;
 	right: 2%;
 }
+
+#test_item {
+	position: fixed;
+}
+
+.garlands-div {
+	background: url("../img/garlands.svg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+
+}
+
+.garlands-div-2 {
+	background: url("../img/garlands_2.svg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	height: 100%;
+}
+
 
 .lineup-button {
 	color: white;	
